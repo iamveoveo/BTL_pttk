@@ -1,0 +1,21 @@
+12/17/2021
+
+@@
+- HS + PH : A ->T3 tuần sau (12/21)
+- QTV : V ->T3 tuần sau (12/21)
+- GV + SQTV : P -> đợi
+
+@@Kịch bản (Biểu đồ active)
+- Liệt kể các kịch bản -> P trong lúc đang đợi (tới T3 tuần sau 12/21)
+- Mô tả bằng bản, vẽ biểu đồ -> V+A đợi2
+
+@@ Biểu đồ tuần tự etc...
+- Phân tích, vẽ các module -> chia theo số lượng module -> P+V+A đợi 3
+
+@@ Các biểu đồ còn lại
+- Vẽ các biểu đồ lớp, ER, CSDL -> chia nhau chỗ còn lợi (Nhanh hơn các phần trên)
+
+## Đợi 1 dự kiến thứ 3 tuần sau (12/21)
+## Đợi 2 dự kiến Thứ 3 tuần sau nữa (12/28)
+## Đợi 3 dự kiến  Thứ 3 tuần sau nữa nữa (1/4)
+	

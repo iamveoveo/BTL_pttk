@@ -1,0 +1,118 @@
+ACTOR
+học sinh
+giáo viên
+phụ huynh
+quản trị viên
+siêu quản trị viên
+
+USE-CASE
+Học sinh:
+- Đăng nhập, đăng xuất, xác thực người dùng, quên mật khẩu
+- Quản lý thông tin cá nhân
+	+ Sửa thông tin cá nhân
+	+ Thay đổi mật khẩu
+	+ Sửa ảnh đại diện
+- Xem điểm, tải bảng điểm
+- Xem thông tin cá nhân của các tài khoản khác
+- tìm kiếm người dùng
+
+Phụ huynh:
+- toàn quyền của học sinh
+- nhắn tin
+
+Giáo viên:
+- toàn quyền phụ huynh
+- quản lý điểm
+	+ thêm điểm
+	+ sửa điểm
+	+ nhâp điểm bằng tệp
+	+ xuất điểm ra tệp dữ liệu
+	+ lọc các lớp đang quản lý
+- quản lý tài khoản
+	+ sửa thông tin
+	+ sửa ảnh đại diện
+
+Quản trị viên
+- Đăng nhập, đăng xuất, xác thực người dùng
+- quản lý người dùng
+	+ tìm kiếm người dùng
+	+ thêm người dùng
+	+ sửa thông tin người dùng
+	+ xóa người dùng
+	+ xem chi tiết thông tin người dùng
+	+ đặt lại mật khẩu
+	+ tạo tài khoản bằng cách nhập tệp
+	+ xuất danh sách tài khoản ra file dữ liệu
+- quản lý lớp
+	+ thêm môn học
+	+ thêm lớp học
+	+ sửa thông tin môn học
+	+ xóa thông tin môn học
+	+ tìm kiếm theo lớp và môn học
+	+ thêm môn học vào lớp bằng cách nhập file
+	+ xuất danh sach môn học của các lớp vòa file dữ liệu
+- quản lý thông tin cá nhân
+	+ sửa thông tin cá nhân
+	+ cập nhật ảnh đại diện
+	+ thay đổi mật khẩu
+
+siêu quản trị viên
+- toàn quyền của quản trị viên
+- quản lý quản tị viên
+	+ thêm quản trị viên
+	+ sửa thông tin quản tị viên
+	+ xóa quản trị viên
+	+ đặt lại mật khẩu cho quản trị viên
+	+ xuất danh sách quản trị viên ra tệp dữ liệu
+
+
+
+@@ PHÂN TÍCH 
+-người sử dụng:
++ Học sinh: là người tự quản lý thông tin cá nhân của tài khoản, được phép xem điểm của bản thân và những học sinh khác
++ Phụ huynh: là người tự quản lý thông tin cá nhân của tài khoản, được phép xem điểm của các học sinh, có thể nhắn tin phản hồi đến các thầy cô giáo
++ Giáo viên: là người tự quản lý thông tin cá nhân của tài khoản và đồng thời có thể quản lý thông tin cá nhân từ các tài khoản khác nhưng không thể thay đổi mật khẩu của các tài khoản khác. Là người có thể quản lý điểm cho lớp đang giảng dạy. Có thể nhắn tin để phản hồi phụ huynh.
++ Quản trị viên: là người quản lý các tài khoản người dùng (học sinh, giáo viên, phụ huynh), quản lý lớp và các môn học của lớp, quản lý điểm của các học sinh, quản lý thông tin cá nhân của tài khoản.
++ Siêu quản trị viên: có khả năng quản lý như một quản trị viên và ngoài ra có thể quản lý các quản trị viên
+
+-tác nhân là hệ thống khác:
++ Gmail: Bên hỗ trợ hình thức trao đổi thư tín giữa hệ thống và các tìa khoản thuộc hệ thống.
+
+@@ Kịch bản
+
+- kịch bản đăng nhập
+- Kịch bản người dùng tìm kiếm người dùng
+- kịch bản xem thông tin cá nhân
+- kịch bản sửa thông tin cá nhân
+- kịch bản cập nhật ảnh đại diện
+- kịch bản đổi mật khẩu
+- kịch bản đăng xuất
+- kịch bản xem thông tin cá nhân của người dùng khác
+- kịch bản xem và tải điểm của học sinh
+- kịch bản gửi tin nhắn
+
+- kịch bản giáo viên thêm điểm
+- kịch bản giáo viên sửa điểm
+- kịch bản lọc các lớp đang quản lý
+- kịch bản giáo viên xuất tệp điểm 
+- kịch bản tìm kiếm người dùng
+- kịch bản thêm người dùng
+- kịch bản sửa thông tin người dùng
+- kịch bản xóa người dùng
+- kịch bản xem chi tiết thông tin người dùng
+
+- kịch bản đặt lại mật khẩu
+- kịch bản tạo tài khoản bằng cách nhập tệp
+- kịch bản xuất danh sách tài khoản ra file dữ liệu
+- kịch bản thêm môn học
+- kịch bản thêm lớp học
+- kịch bản sửa thông tin môn học
+- kịch bản xóa thông tin môn học
+- kịch bản tìm kiếm theo lớp và môn học
+- kịch bản thêm môn học vào lớp bằng cách nhập file
+- kịch bản xuất danh sach môn học của các lớp vòa file dữ liệu
+
+
+
+
+

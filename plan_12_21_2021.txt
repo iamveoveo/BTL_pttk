@@ -1,0 +1,26 @@
+12/21/2021
+
+@@
+- HS + PH : A ->T3 (12/21) DONE
+- QTV + SQTV: V ->T3 (12/21) DONE
+- GV: P ->T3 (12/21) DONE
+
+@@Kịch bản (Biểu đồ active)
+- Liệt kể các kịch bản -> P trong lúc đang đợi (tới T3 12/21) DONE
+- Mô tả bằng bản, vẽ biểu đồ -> đợi2
+	+ 29 Kịch bản
+	+ chia 10 9 10 (V A P)
+- 1 bảng đặc tả DL: Thứ 6 tuần này (12/24)
+- 3 loại biểu đồ: Thứ 3 tuần sau (12/28)
+
+@@ Các biểu đồ còn lại
+- Vẽ các biểu đồ lớp, ER, CSDL -> chia nhau chỗ còn lợi (Nhanh hơn các phần trên)
+
+@@ Làm báo cáo đợi 4
+
+## Đợi 1 dự kiến thứ 3 tuần sau (12/21) DONE
+## Đợi 2 dự kiến Thứ 3 tuần sau nữa (12/28)
+## Đợi 3 dự kiến Thứ 3 tuần sau nữa nữa (1/4)
+## Đợi 4 dự kiến Thứ 3 tuần sau nữa nữa nữa (1/9)
+## Final 1/10
+	
