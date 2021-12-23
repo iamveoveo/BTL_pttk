@@ -90,8 +90,8 @@ siêu quản trị viên
 - kịch bản xem thông tin cá nhân của người dùng khác
 - kịch bản xem và tải điểm của học sinh
 - kịch bản gửi tin nhắn
-
 - kịch bản giáo viên thêm điểm
+
 - kịch bản giáo viên sửa điểm
 - kịch bản lọc các lớp đang quản lý
 - kịch bản giáo viên xuất tệp điểm 
@@ -100,10 +100,10 @@ siêu quản trị viên
 - kịch bản sửa thông tin người dùng
 - kịch bản xóa người dùng
 - kịch bản xem chi tiết thông tin người dùng
-
 - kịch bản đặt lại mật khẩu
 - kịch bản tạo tài khoản bằng cách nhập tệp
 - kịch bản xuất danh sách tài khoản ra file dữ liệu
+
 - kịch bản thêm môn học
 - kịch bản thêm lớp học
 - kịch bản sửa thông tin môn học
@@ -111,6 +111,11 @@ siêu quản trị viên
 - kịch bản tìm kiếm theo lớp và môn học
 - kịch bản thêm môn học vào lớp bằng cách nhập file
 - kịch bản xuất danh sach môn học của các lớp vòa file dữ liệu
+- kịch bản thêm quản trị viên
+- kịch bản sửa thông tin quản tị viên
+- kịch bản xóa quản trị viên
+- kịch bản đặt lại mật khẩu cho quản trị viên
+- kịch bản xuất danh sách quản trị viên ra tệp dữ liệu
 
 
 
