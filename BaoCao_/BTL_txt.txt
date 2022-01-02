@@ -84,18 +84,20 @@ siêu quản trị viên
 - Kịch bản người dùng tìm kiếm người dùng
 - kịch bản xem thông tin cá nhân
 - kịch bản sửa thông tin cá nhân
-- kịch bản cập nhật ảnh đại diện
+!!BỎ	- kịch bản cập nhật ảnh đại diện
 - kịch bản đổi mật khẩu
-- kịch bản đăng xuất
-- kịch bản xem thông tin cá nhân của người dùng khác
+!!BỎ	- kịch bản đăng xuất
+!!BỎ	- kịch bản xem thông tin cá nhân của người dùng khác
 - kịch bản xem và tải điểm của học sinh
 - kịch bản gửi tin nhắn
 - kịch bản giáo viên thêm điểm
+- kịch bản quên mật khẩu
+- kịch bản xác thực người dùng
 
 - kịch bản giáo viên sửa điểm
 - kịch bản lọc các lớp đang quản lý
 - kịch bản giáo viên xuất tệp điểm 
-- kịch bản tìm kiếm người dùng
+!!BỎ	- kịch bản tìm kiếm người dùng		
 - kịch bản thêm người dùng
 - kịch bản sửa thông tin người dùng
 - kịch bản xóa người dùng
@@ -108,13 +110,13 @@ siêu quản trị viên
 - kịch bản thêm lớp học
 - kịch bản sửa thông tin môn học
 - kịch bản xóa thông tin môn học
-- kịch bản tìm kiếm theo lớp và môn học
-- kịch bản thêm môn học vào lớp bằng cách nhập file
-- kịch bản xuất danh sach môn học của các lớp vòa file dữ liệu
+!!BỎ	- kịch bản tìm kiếm theo lớp và môn học
+!!BỎ	- kịch bản thêm môn học vào lớp bằng cách nhập file
+!!BỎ	- kịch bản xuất danh sach môn học của các lớp vòa file dữ liệu
 - kịch bản thêm quản trị viên
 - kịch bản sửa thông tin quản tị viên
 - kịch bản xóa quản trị viên
-- kịch bản đặt lại mật khẩu cho quản trị viên
+!!BỎ	- kịch bản đặt lại mật khẩu cho quản trị viên
 - kịch bản xuất danh sách quản trị viên ra tệp dữ liệu
 
 
